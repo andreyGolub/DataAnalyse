@@ -1,0 +1,16 @@
+{
+  "name": "dataanalyse",
+  "version": "0.1.0",
+  "description": "First lab",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron index.js"
+  },
+  "author": "TiniovyKit",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^1.8.4",
+    "jquery": "^3.3.1",
+    "plotly": "^1.0.6"
+  }
+}

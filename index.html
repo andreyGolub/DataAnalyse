@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+</head>
+<body>
+    <!-- <div class="adolf">
+        <div>Hiel EGGMAScript</div>
+        <div><img src='css/hitler_head2.svg'alt=""></div>
+    </div> -->
+    <div class='main'>
+            <div class='header'>
+                <div>Correlation Analysis</div> 
+            </div>
+            <div class='control'>
+                    <div class='button' id='openButton'>Open me</div>
+            </div>
+            
+            <div class='wrapper'>
+                <div>
+                    <div class = 'chart' id="chart"></div>
+                    <div class = 'chart' id="diogram"></div>
+                </div>
+                
+                <div class='info'>
+                    <table>
+                        <tr >
+                            <th></th>
+                            <th>Value</th>
+                            <th>Statistic</th>
+                            <th>Quantile</th>
+                            <th>Significanse</th>
+                            <th>Interval</th>
+                        </tr>
+                        <tr>
+                            <th>Pearson Correlation Coefficient</th>
+                            <th id='Pvalue'></th>
+                            <th id='Pstat'></th>
+                            <th id='Pquantile'></th>
+                            <th id='Psign'></th>
+                            <th id='Pinterval'></th>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th>Value</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <th>Determination coef</th>
+                            <th id='Det'></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr >
+                            <th></th>
+                            <th>Value</th>
+                            <th>Dispertion</th>
+                            <th>Statistic</th>
+                            <th>Quantile</th>
+                            <th>Significanse</th>
+                            <th>Interval</th>
+                        </tr>
+                        <tr>
+                            <th>a</th>
+                            <th id='Avalue'></th>
+                            <th id='Adisp'></th>
+                            <th id='Astat'></th>
+                            <th id='Aquantile'></th>
+                            <th id='Asign'></th>
+                            <th id='Ainterval'></th>
+                        </tr>
+                        <tr>
+                            <th>b</th>
+                            <th id='Bvalue'></th>
+                            <th id='Bdisp'></th>
+                            <th id='Bstat'></th>
+                            <th id='Bquantile'></th>
+                            <th id='Bsign'></th>
+                            <th id='Binterval'></th>
+                        </tr>
+                    </table>
+                </div> 
+            </div>
+    </div>
+    
+    <audio id="myAudio">
+            
+            <source src="chicken-1.mp3" type="audio/mpeg">
+           
+    </audio>
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/plotly.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
